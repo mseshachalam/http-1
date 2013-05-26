@@ -1,7 +1,7 @@
 {
     "name": "orno/http",
     "description": "A wrapper for Symfony\\HttpFoundation with a few extra features.",
-    "keywords": ["orno", "http"],
+    "keywords": ["orno", "http", "request", "response"],
     "homepage": "http://github.com/orno/http",
     "license": "WTFPL",
     "require": {
