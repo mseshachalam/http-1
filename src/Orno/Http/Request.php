@@ -17,9 +17,24 @@ class Request extends HttpFoundation\Request implements RequestInterface
     /**
      * {@inheritdoc}
      */
-    public function build()
-    {
-        self::createFromGlobals();
+    public function build(
+        array $query      = [],
+        array $request    = [],
+        array $attributes = [],
+        array $cookies    = [],
+        array $files      = [],
+        array $server     = [],
+        $content          = null
+    ) {
+        $this->initialize(
+            (empty($query))   ? $_GET  : $query,
+            (empty($request)) ? $_POST : $request,
+            $attributes,
+            (empty($cookies)) ? $_COOKIE : $cookies,
+            (empty($files))   ? $_FILES  : $files,
+            (empty($server))  ? $_SERVER : $server,
+            $content
+        );
 
         return $this;
     }
