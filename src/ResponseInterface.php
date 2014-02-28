@@ -7,9 +7,6 @@
  */
 namespace Orno\Http;
 
-/**
- * Response Interface
- */
 interface ResponseInterface
 {
     /**

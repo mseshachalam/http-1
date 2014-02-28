@@ -7,12 +7,7 @@
  */
 namespace Orno\Http;
 
-use Symfony\Component\HttpFoundation;
-
-/**
- * Response
- */
-class Response extends HttpFoundation\Response implements ResponseInterface
+class JsonResponse extends Response implements ResponseInterface
 {
 
 }

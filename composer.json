@@ -1,9 +1,9 @@
 {
     "name": "orno/http",
-    "description": "A wrapper for Symfony\\HttpFoundation with a few extra features.",
+    "description": "A wrapper for Symfony\\HttpFoundation with some encapsulation and convenience methods.",
     "keywords": ["orno", "http", "request", "response"],
     "homepage": "http://github.com/orno/http",
-    "license": "WTFPL",
+    "license": "MIT",
     "require": {
         "php": ">=5.4",
         "symfony/http-foundation": "2.2.*"
@@ -15,8 +15,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Orno\\Http": "src/"
+        "psr-4": {
+            "Orno\\Http\\": "src/"
         }
     },
     "minimum-stability": "dev"
