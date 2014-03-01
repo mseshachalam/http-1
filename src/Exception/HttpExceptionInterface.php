@@ -5,7 +5,7 @@
  * @author  Phil Bennett @philipobenito
  * @license MIT (see the LICENSE file)
  */
-namespace Orno\Route\Exception;
+namespace Orno\Http\Exception;
 
 interface HttpExceptionInterface
 {
