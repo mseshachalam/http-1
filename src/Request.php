@@ -14,7 +14,7 @@ class Request extends HttpFoundation\Request implements RequestInterface
     /**
      * {@inheritdoc}
      */
-    public function get($key = null, $default = null)
+    public function query($key = null, $default = null)
     {
         if (! is_null($key)) {
             return $this->query;

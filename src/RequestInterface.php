@@ -15,7 +15,7 @@ interface RequestInterface
      * @param  string $key
      * @return mixed
      */
-    public function get($key = null);
+    public function query($key = null, $default = null, $default = null);
 
     /**
      * Return array or single key from $_POST
@@ -23,7 +23,7 @@ interface RequestInterface
      * @param  string $key
      * @return mixed
      */
-    public function post($key = null);
+    public function post($key = null, $default = null);
 
     /**
      * Return array or single key from $_SERVER
@@ -31,7 +31,7 @@ interface RequestInterface
      * @param  string $key
      * @return mixed
      */
-    public function server($key = null);
+    public function server($key = null, $default = null);
 
     /**
      * Return array or single key from $_FILES
@@ -39,7 +39,7 @@ interface RequestInterface
      * @param  string $key
      * @return mixed
      */
-    public function files($key = null);
+    public function files($key = null, $default = null);
 
     /**
      * Return array or single key from $_COOKIE
@@ -47,7 +47,7 @@ interface RequestInterface
      * @param  string $key
      * @return mixed
      */
-    public function cookie($key = null);
+    public function cookie($key = null, $default = null);
 
     /**
      * Return array or single key from headers taken from $_SERVER
@@ -55,5 +55,5 @@ interface RequestInterface
      * @param  string $key
      * @return mixed
      */
-    public function headers($key = null);
+    public function headers($key = null, $default = null);
 }
