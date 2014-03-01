@@ -15,7 +15,7 @@ interface RequestInterface
      * @param  string $key
      * @return mixed
      */
-    public function query($key = null, $default = null, $default = null);
+    public function query($key = null, $default = null);
 
     /**
      * Return array or single key from $_POST
