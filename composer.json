@@ -18,6 +18,5 @@
         "psr-4": {
             "Orno\\Http\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
