@@ -16,7 +16,7 @@ class Request extends HttpFoundation\Request implements RequestInterface
      */
     public function query($key = null, $default = null)
     {
-        if (! is_null($key)) {
+        if (is_null($key)) {
             return $this->query;
         }
 
@@ -28,7 +28,7 @@ class Request extends HttpFoundation\Request implements RequestInterface
      */
     public function post($key = null, $default = null)
     {
-        if (! is_null($key)) {
+        if (is_null($key)) {
             return $this->request;
         }
 
@@ -40,7 +40,7 @@ class Request extends HttpFoundation\Request implements RequestInterface
      */
     public function server($key = null, $default = null)
     {
-        if (! is_null($key)) {
+        if (is_null($key)) {
             return $this->server;
         }
 
@@ -52,7 +52,7 @@ class Request extends HttpFoundation\Request implements RequestInterface
      */
     public function files($key = null, $default = null)
     {
-        if (! is_null($key)) {
+        if (is_null($key)) {
             return $this->files;
         }
 
@@ -64,7 +64,7 @@ class Request extends HttpFoundation\Request implements RequestInterface
      */
     public function cookie($key = null, $default = null)
     {
-        if (! is_null($key)) {
+        if (is_null($key)) {
             return $this->cookies;
         }
 
@@ -76,7 +76,7 @@ class Request extends HttpFoundation\Request implements RequestInterface
      */
     public function headers($key = null, $default = null)
     {
-        if (! is_null($key)) {
+        if (is_null($key)) {
             return $this->headers;
         }
 
