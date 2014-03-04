@@ -3,7 +3,7 @@
  * The Orno Component Library
  *
  * @author  Phil Bennett @philipobenito
- * @license http://www.wtfpl.net/txt/copying/ WTFPL
+ * @license MIT (see the LICENSE file)
  */
 namespace Orno\Http;
 
