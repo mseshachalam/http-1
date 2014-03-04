@@ -82,4 +82,15 @@ class Request extends HttpFoundation\Request implements RequestInterface
 
         return $this->headers->get($key, $default);
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function uriSegment($index, $default = null)
+    {
+        $uri      = trim($this->getPathInfo(), '/');
+        $segments = explode('/', $uri);
+
+        return (isset($segments[$index - 1])) ? $segments[$index - 1] : $default;
+    }
 }

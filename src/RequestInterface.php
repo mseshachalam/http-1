@@ -56,4 +56,12 @@ interface RequestInterface
      * @return mixed
      */
     public function headers($key = null, $default = null);
+
+    /**
+     * Get a segment from the URI string
+     *
+     * @param  integer $index
+     * @return string
+     */
+    public function uriSegment($index, $default = null);
 }
