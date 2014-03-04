@@ -11,5 +11,8 @@ use Symfony\Component\HttpFoundation;
 
 class Response extends HttpFoundation\Response implements ResponseInterface
 {
-
+    /**
+     * Paremeter encapsulation
+     */
+    use ParameterTrait;
 }
