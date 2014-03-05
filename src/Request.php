@@ -12,9 +12,9 @@ use Symfony\Component\HttpFoundation;
 class Request extends HttpFoundation\Request implements RequestInterface
 {
     /**
-     * Paremeter encapsulation
+     * Parameter encapsulation
      */
-    use ParameterTrait;
+    use RequestParameterTrait;
 
     /**
      * {@inheritdoc}

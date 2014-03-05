@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation;
 class JsonResponse extends HttpFoundation\JsonResponse implements ResponseInterface
 {
     /**
-     * Paremeter encapsulation
+     * Parameter encapsulation
      */
-    use ParameterTrait;
+    use ResponseParameterTrait;
 }

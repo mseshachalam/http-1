@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation;
 class Response extends HttpFoundation\Response implements ResponseInterface
 {
     /**
-     * Paremeter encapsulation
+     * Parameter encapsulation
      */
-    use ParameterTrait;
+    use ResponseParameterTrait;
 }
