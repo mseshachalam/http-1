@@ -1,10 +1,11 @@
 # Orno\Http
 
-[![Build Status](https://travis-ci.org/orno/http.png?branch=master)](https://travis-ci.org/orno/http)
-[![Code Coverage](https://scrutinizer-ci.com/g/orno/http/badges/coverage.png?s=1b0cda2434b853f84d4c672d35c27affc556fd5b)](https://scrutinizer-ci.com/g/orno/http/)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/orno/http/badges/quality-score.png?s=d9fde5f29191fdfdeac82e49e4d0bc8243932573)](https://scrutinizer-ci.com/g/orno/http/)
-[![Latest Stable Version](https://poser.pugx.org/orno/http/v/stable.png)](https://packagist.org/packages/orno/http)
-[![Total Downloads](https://poser.pugx.org/orno/http/downloads.png)](https://packagist.org/packages/orno/http)
+[![Latest Version](https://img.shields.io/github/release/orno/http.svg?style=flat)](https://github.com/orno/http/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/orno/http/master.svg?style=flat)](https://travis-ci.org/orno/http)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/orno/http.svg?style=flat)](https://scrutinizer-ci.com/g/orno/http/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/orno/http.svg?style=flat)](https://scrutinizer-ci.com/g/orno/http)
+[![Total Downloads](https://img.shields.io/packagist/dt/orno/http.svg?style=flat)](https://packagist.org/packages/orno/http)
 
 This package is simply a wrapper for the [Symfony\HttpFoundation](http://symfony.com/doc/current/components/http_foundation/introduction.html) component with a little encapsulation of properties added and some pre-built response objects and convenience 4xx HTTP exceptions.
 
