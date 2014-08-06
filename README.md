@@ -1,6 +1,6 @@
 # Orno\Http
 
-[![Latest Version](https://img.shields.io/github/release/orno/http.svg?style=flat)](https://github.com/orno/http/releases)
+[![Latest Version](http://img.shields.io/packagist/v/orno/http.svg?style=flat)](https://packagist.org/packages/orno/http)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/orno/http/master.svg?style=flat)](https://travis-ci.org/orno/http)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/orno/http.svg?style=flat)](https://scrutinizer-ci.com/g/orno/http/code-structure)
