@@ -1,4 +1,4 @@
-# Orno\Http
+# Orno\Http by [@philipobenito](https://twitter.com/philipobenito)
 
 [![Latest Version](http://img.shields.io/packagist/v/orno/http.svg?style=flat)](https://packagist.org/packages/orno/http)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
